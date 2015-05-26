@@ -1,0 +1,11 @@
+Package: fetch
+Title: Tools for Fetching Data
+Version: 0.0.0.9000
+Authors@R: person("Daniel", "Kaplan", email = "dtkaplan@macalester.edu", role = c("aut", "cre"))
+Description: A number of functions are provided to simplify fetching data.
+Depends: R (>= 3.2.0)
+Imports: 
+  reshape2,
+  RCurl
+License: GPL (>=2) 
+LazyData: true

@@ -1,14 +1,26 @@
+---
+output:
+  html_document:
+    keep_md: yes
+  md_document:
+    variant: markdown_github
+---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
 
 fetch
 =====
 
 We are in the process of moving some of our "fetchers" from the `mosaic` package
 to this package, which you can install with
-
-```r
+```{r eval=FALSE}
 devtools::install_github("ProjectMOSAIC/fetch")
 ```
